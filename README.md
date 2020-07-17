@@ -37,9 +37,6 @@ Configuration
 Configure the Rating data service and Movie info service's application.properties to connect to the databases and
 create tables for Rating and Movie. 
 
-Rating(rid,username,moviename,rating)
-Movie( name, description)
-
 CREATE TABLE movie (
 name VARCHAR(30) PRIMARY KEY,
 description VARCHAR(30)
