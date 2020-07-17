@@ -11,11 +11,13 @@ Movie Catalog service:
 Rating Data service:
 =====================
 -> For a user, gives the list of Movie names and rating details
+
 -> Also supports APIs for adding, updating and deleting movie ratings
 
 Movie Info service
 =====================
 -> For a movie, gives the Movie description 
+
 -> Also supports APIs for adding, updating and deleting movie info
 
 Flow
@@ -29,6 +31,7 @@ Uses
 - JPA & mySQL
 - Used Eureka for service discovery.
 
+Configuration
 ======================
 
 Configure the Rating data service and Movie info service's application.properties to connect to the databases and
