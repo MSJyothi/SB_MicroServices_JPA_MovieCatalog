@@ -30,6 +30,7 @@ Uses
 - Used Eureka for service discovery.
 
 ======================
+
 Configure the Rating data service and Movie info service's application.properties to connect to the databases and
 create tables for Rating and Movie. 
 
